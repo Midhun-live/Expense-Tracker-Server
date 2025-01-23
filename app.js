@@ -5,7 +5,7 @@ const mongoose=require("mongoose")
 const { v4: uuidv4 } = require('uuid');
 const PORT=8000
 
-const mongourl="mongodb://localhost:27017/Practice"
+const mongourl="mongodb+srv://midhun:midhun123@chat-app.oeisj.mongodb.net/Expense-tracker"
 mongoose
   .connect(mongourl)
   .then(()=>{
