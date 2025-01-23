@@ -1,7 +1,6 @@
 const express=require("express")//imported express
 const app=express()//instance of express
 app.use(express.json())//parse json data
-app.use(cors())
 const mongoose=require("mongoose")
 const { v4: uuidv4 } = require('uuid');
 const PORT=8000
